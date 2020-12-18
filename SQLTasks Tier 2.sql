@@ -1,4 +1,9 @@
-/* Welcome to the SQL mini project. You will carry out this project partly in
+/* 
+>>>>>>>> STUDENT NOTE: The PHPMyAdmin server uses MySQL (Q1-Q9), but part 2 (Q10-Q13) is directed to be done with SQLite. 
+>>>>>>>> This means some code will be different, such as CONCAT vs || to concatenate strings.
+>>>>>>>> SQLite code for all questions (Q1-Q13) can be found in the SQL_case_study.ipynb file in this GitHub folder.
+
+Welcome to the SQL mini project. You will carry out this project partly in
 the PHPMyAdmin interface, and partly in Jupyter via a Python connection.
 
 This is Tier 2 of the case study, which means that there'll be less guidance for you about how to setup
@@ -221,10 +226,7 @@ Massage Room 2	GUEST GUEST	80.0
 Export the country club data from PHPMyAdmin, and connect to a local SQLite instance from Jupyter notebook 
 for the following questions.  
 
-QUESTIONS:
-
->>>>>>>> STUDENT NOTE: The PHPMyAdmin server uses MySQL (Q1-Q9), but part 2 (Q10-Q13) is directed to be done with SQLite. This means some code will be different, such as CONCAT vs || to concatenate strings.
-*/
+QUESTIONS:*/
 /* Q10: Produce a list of facilities with a total revenue less than 1000.
 The output of facility name and total revenue, sorted by revenue. Remember
 that there's a different cost for guests and members! */
